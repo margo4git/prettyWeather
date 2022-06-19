@@ -1,0 +1,43 @@
+.block {
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+}
+.block > div {
+  margin-left: 24px;
+}
+.temperature {
+  font-size: 48px;
+  margin: 0px;
+}
+.splineContainer {
+  display: flex;
+  height: 200px;
+  width: 250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.spline {
+  height: 100%;
+  width: 100%;
+}
+
+.loader {
+  position: absolute;
+}
+
+@media screen and (max-width: 960px) {
+  .block {
+    width: 100%;
+    margin-top: 16px;
+    justify-content: space-around;
+  }
+  .block > div {
+    margin-left: 0;
+  }
+  .splineContainer {
+    height: 160px;
+    width: 200px;
+  }
+}

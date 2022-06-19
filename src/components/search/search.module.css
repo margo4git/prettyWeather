@@ -1,0 +1,74 @@
+.search {
+  background: rgb(217, 210, 255);
+
+  border-radius: 8px;
+  border: none;
+  width: 164px;
+  color: aliceblue;
+  font-size: calc(10px + 2vmin);
+  padding-left: 4px;
+  transition: all 0.4s ease-in-out;
+}
+.searchNight {
+  background: linear-gradient(
+    90deg,
+    rgba(217, 210, 255, 0.25) 0%,
+    rgba(87, 65, 215, 1) 85%
+  );
+}
+.searchDay {
+  background: linear-gradient(
+    90deg,
+    rgba(217, 210, 255, 0.25) 0%,
+    rgba(74, 121, 243, 1) 85%
+  );
+}
+
+.search:focus {
+  outline: none;
+  width: 45%;
+  padding: 4px;
+}
+
+::placeholder {
+  color: aliceblue;
+}
+
+.search::-webkit-calendar-picker-indicator {
+  display: none;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 100;
+  border-radius: 8px;
+  background-color: #fd9b3d;
+  min-width: 200px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.3);
+  transform: translateY(8px);
+  overflow: hidden;
+  /* border-top-left-radius: 0px; */
+}
+
+.searchResults span {
+  padding: 4px 12px 4px 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.searchResults span:hover {
+  background-color: #dd802a;
+}
+
+@media screen and (max-width: 960px) {
+  .search {
+    width: 100%;
+  }
+  .search:focus {
+    outline: none;
+    width: 100%;
+    padding: 4px;
+  }
+}

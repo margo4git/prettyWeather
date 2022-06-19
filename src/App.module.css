@@ -1,0 +1,69 @@
+.appContainter {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.appDay {
+  background-color: #4a79f3;
+}
+.appNight {
+  background-color: #5741d7;
+}
+.main {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: aliceblue;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 960px;
+  min-width: 960px;
+}
+.weather {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vl {
+  border-left: 1px solid rgb(151, 151, 151);
+  height: 250px;
+  margin: 0 16px 0 16px;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 960px) {
+  .appContainter {
+    flex: 1;
+    height: auto;
+    min-height: 100%;
+  }
+  .searchContainer {
+    padding-left: 24px;
+  }
+  .main {
+    padding: 24px 0;
+    max-width: 480px;
+    min-width: auto;
+  }
+  .weather {
+    display: flex;
+    flex-direction: column;
+  }
+  .vl {
+    display: none;
+  }
+}

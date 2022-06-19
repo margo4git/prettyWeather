@@ -1,0 +1,21 @@
+.param {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.param > div {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin-top: 24px;
+}
+
+@media screen and (max-width: 960px) {
+  .param {
+    width: 100%;
+  }
+  .param > div {
+    justify-content: space-around;
+  }
+}

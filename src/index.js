@@ -4,6 +4,14 @@ import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
+function noop() {}
+
+if (process.env.NODE_ENV !== "development") {
+  console.log = noop;
+  console.warn = noop;
+  console.error = noop;
+}
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
 

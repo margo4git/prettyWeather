@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.3bc0afb7.css",
-    "main.js": "/static/js/main.9be6b7fe.js",
-    "static/js/301.09749b1c.chunk.js": "/static/js/301.09749b1c.chunk.js",
-    "static/js/787.d9312eb8.chunk.js": "/static/js/787.d9312eb8.chunk.js",
-    "index.html": "/index.html",
-    "main.3bc0afb7.css.map": "/static/css/main.3bc0afb7.css.map",
-    "main.9be6b7fe.js.map": "/static/js/main.9be6b7fe.js.map",
-    "301.09749b1c.chunk.js.map": "/static/js/301.09749b1c.chunk.js.map",
-    "787.d9312eb8.chunk.js.map": "/static/js/787.d9312eb8.chunk.js.map"
+    "main.css": "/prettyWeather/static/css/main.3bc0afb7.css",
+    "main.js": "/prettyWeather/static/js/main.1224e618.js",
+    "static/js/301.09749b1c.chunk.js": "/prettyWeather/static/js/301.09749b1c.chunk.js",
+    "static/js/787.d9312eb8.chunk.js": "/prettyWeather/static/js/787.d9312eb8.chunk.js",
+    "index.html": "/prettyWeather/index.html",
+    "main.3bc0afb7.css.map": "/prettyWeather/static/css/main.3bc0afb7.css.map",
+    "main.1224e618.js.map": "/prettyWeather/static/js/main.1224e618.js.map",
+    "301.09749b1c.chunk.js.map": "/prettyWeather/static/js/301.09749b1c.chunk.js.map",
+    "787.d9312eb8.chunk.js.map": "/prettyWeather/static/js/787.d9312eb8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3bc0afb7.css",
-    "static/js/main.9be6b7fe.js"
+    "static/js/main.1224e618.js"
   ]
 }

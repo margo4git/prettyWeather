@@ -13,7 +13,6 @@ import { chunk, merge, pick } from "lodash";
 import dayjs from "dayjs";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
-console.log(API_KEY);
 
 export const WeatherContext = createContext();
 

@@ -12,7 +12,7 @@ export const WeatherTime = () => {
           <WeatherTimeCard
             key={index}
             time={wetherToday.dt_txt.split(" ")[1].slice(0, 5)}
-            icon={`http://openweathermap.org/img/wn/${wetherToday.weather[0].icon}@2x.png`}
+            icon={`https://openweathermap.org/img/wn/${wetherToday.weather[0].icon}@2x.png`}
             temp={wetherToday.main.temp + "°"}
           />
         );

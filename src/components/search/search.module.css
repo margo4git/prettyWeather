@@ -64,11 +64,11 @@
 
 @media screen and (max-width: 960px) {
   .search {
-    width: 100%;
+    width: 80%;
   }
   .search:focus {
     outline: none;
-    width: 100%;
+    width: 80%;
     padding: 4px;
   }
 }
